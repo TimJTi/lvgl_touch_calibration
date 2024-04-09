@@ -18,7 +18,7 @@ extern "C" {
 typedef float lv_tc_val_t;
 
 typedef struct {
-    bool isValid;
+    bool isvalid;
 
     lv_tc_val_t a;
     lv_tc_val_t b;
