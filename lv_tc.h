@@ -9,7 +9,7 @@ extern "C" {
  *********************/
 
 #include "stdbool.h"
-#include "lvgl.h"
+#include <lvgl/lvgl.h>
 
 
 /**********************
