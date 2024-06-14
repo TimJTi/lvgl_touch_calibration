@@ -48,7 +48,7 @@ extern const lv_obj_class_t lv_tc_screen_class;
  * Create a touch calibration screen.
  * @returns a pointer to the newly created screen (lv_obj_t*)
  */
-lv_obj_t* lv_tc_screen_create();
+lv_obj_t* lv_tc_screen_create(void);
 
 /**
  * Set the points on screen to perform the calibration with.

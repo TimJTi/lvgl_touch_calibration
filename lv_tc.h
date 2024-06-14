@@ -65,7 +65,7 @@ void lv_tc_register_coeff_save_cb(void (*saveCb)(lv_tc_coeff_t coeff));
  * Get the current calibration coefficients.
  * @returns pointer to the coefficients structure (lv_tc_coeff_t*)
  */
-lv_tc_coeff_t* lv_tc_get_coeff();
+lv_tc_coeff_t* lv_tc_get_coeff(void);
 
 /**
  * Set the current calibration coefficients.
@@ -84,7 +84,7 @@ void lv_tc_load_coeff_from_config();
 /**
  * Save the current calibration coefficients.
  */
-void lv_tc_save_coeff();
+void lv_tc_save_coeff(void);
 
 /**
  * Compute calibration coefficients for a given set of points on the screen and touch panel.
